@@ -1,0 +1,38 @@
+/* debug */
+
+/* [class*="col-"]{
+    flex: 0 0 auto;
+    background-color: rgb(32, 95, 190);
+    color: #fff;
+    min-height: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.upper-section{
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+}
+
+footer{
+    background-color: blue;
+    height: 150px;
+}
+
+.contenitore{
+    width: calc(100% - 300px);
+    height: 100%;
+    background-color: red;
+}
+
+.vertical-menu{
+    width: 300px;
+    background-color: aqua;
+}
+
+
+/* fine debug */
+
