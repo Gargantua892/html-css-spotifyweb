@@ -4,6 +4,23 @@
 }
 /* fine debug */
 
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+[class*="col-"]{
+    flex: 0 0 auto;
+}
+
+
 
 /* colonne */
 .col-xs{
@@ -130,9 +147,9 @@
 
 @media screen and (min-width: 576px){
 
-    .container{
+    /* .container{
         max-width: 540px;
-    }
+    } */
 
     .col-sm{
         flex-grow: 1;
@@ -252,9 +269,9 @@
 /* Tablet */
 @media screen and (min-width: 768px){
 
-    .container{
+    /* .container{
         max-width: 720px;
-    }
+    } */
 
     .col-md{
         flex-grow: 1;
@@ -373,9 +390,9 @@
 /* Desktop */
 @media screen and (min-width: 992px){
 
-    .container{
+    /* .container{
         max-width: 960px;
-    }
+    } */
 
     .col-lg{
         flex-grow: 1;

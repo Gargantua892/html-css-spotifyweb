@@ -11,28 +11,136 @@
     align-items: center;
 } */
 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.vertical-menu{
+    width: 300px;
+    background-color: #000000;
+}
+
+
+.upgrade-banner{
+    background-color: #070b12;
+    height: 85px;
+}
+
+/* footer */
+.track-preview, .track-player, .systems-btns{
+    height: 80px;
+    border: 2px solid #fff;
+}
+
+
+
+/* fine debug */
+
 .upper-section{
     width: 100%;
     height: calc(100vh - 150px);
     display: flex;
 }
 
+.card-container{
+    padding: 16px 24px;
+}
+
 footer{
-    background-color: blue;
+    background-color: #282828;
     height: 150px;
 }
 
 .contenitore{
     width: calc(100% - 300px);
     height: 100%;
-    background-color: red;
+    background-color: #141922;
 }
 
+
+.text-center{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-top:0px;
+    padding:0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+.card-container ul li{
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+
+/* Menu verticale */
 .vertical-menu{
-    width: 300px;
-    background-color: aqua;
+    color: #a6a6a6;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 
-/* fine debug */
+.logo img{
+    width: 100%;
+}
 
+.logo{
+    padding: 16px;
+    max-width: 190px;
+}
+
+.main-menu img, .user-info img{
+    max-width: 24px;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+}
+
+.main-menu span, .playlist-menu li:nth-child(2) span{
+    margin-left: 8px;
+}
+
+.playlist-menu li{
+    padding: 8px 0px;
+}
+
+.playlist-menu i{
+    font-size: 36px;
+}
+
+.main-menu li, .vertical-menu ul:last-child, .user-info{
+    padding: 8px 16px;
+}
+
+.user-info span{
+    margin-left: 16px;
+}
+
+.user-info .menu-item:first-child i{
+    font-size: 12px;
+}
+
+.user-info .menu-item:last-child i{
+    font-size: 24px;
+}
+
+.main-menu li:active{
+    padding: 8px 16px;
+    border-left: 4px solid #adff30;
+}

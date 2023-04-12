@@ -7,15 +7,157 @@
     <!-- stili css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <title>Spotify clone</title>
 </head>
 <body>
     <main>
         <section class="upper-section">
-            <div class="vertical-menu"></div>
-            <section class="contenitore"></section>
+
+            <!-- menu  -->
+            <div class="vertical-menu">
+                <nav>
+                    <div class="logo">
+                        <img src="img/logo.svg" class="img-fluid rounded-top" alt="">
+                    </div>
+                    <ul class="main-menu">
+                        <li><div class="menu-item"><img src="img/home.svg" alt=""><span>Home</span></div></li>
+                        <li><div class="menu-item"><img src="img/search.svg" alt=""><span>Cerca</span></div></li>
+                        <li><div class="menu-item"><img src="img/libreria.svg" alt=""><span>La tua libreria</span></div></li>
+                    </ul>
+                    <ul class="playlist-menu">
+                        <li><div class="menu-item"><h3>Playlist</h3></div></li>
+                        <li><div class="menu-item"><i class="fa-solid fa-square-plus"></i><span>Crea playlist</span></div></li>
+                        <li><div class="menu-item"><span>Playlist</span></div></li>
+                        <li><div class="menu-item"><span>Playlist</span></div></li>
+                        <li><div class="menu-item"><span>Playlist</span></div></li>
+                        <li><div class="menu-item"><span>Playlist</span></div></li>
+                        <li><div class="menu-item"><span>Playlist</span></div></li>
+                    </ul>
+                </nav>
+                <div class="user-info">
+                    <div class="menu-item">
+                        <i class="fa-regular fa-circle-down"></i><span>Installa app</span>
+                    </div>
+                    <hr>
+                    <div class="menu-item">
+                        <i class="fa-solid fa-circle-user"></i><span><h4>John Doe</h4></span>
+                    </div>
+                </div>
+            </div>
+            <!-- fine menu  -->
+
+            <!-- contenitore  -->
+            <section class="contenitore">
+                <section class="upgrade-banner">
+                    <a href="btn" class="class">Effettua l'upgrade</a>
+                </section>
+                <section class="card-container">
+
+                     <!-- filter menu  -->
+                    <div class="filter-menu">
+                        <div class="containr">
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <ul>
+                                        <li><a href="#" class="filter-menu-item">in evidenza</a></li>
+                                        <li><a href="#" class="filter-menu-item">Podcast</a></li>
+                                        <li><a href="#" class="filter-menu-item">Classifiche</a></li>
+                                        <li><a href="#" class="filter-menu-item">Generi e mood</a></li>
+                                        <li><a href="#" class="filter-menu-item">Nuove uscite</a></li>
+                                        <li><a href="#" class="filter-menu-item">Scopri</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- recently played -->
+                    <div class="container">
+                        <h2>Recently-played</h2>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="" alt="">
+                                <h4>Stranger things, Vol. 1 (a Netflix Original series Soundtrack)</h4>
+                                <h5>Subtitle</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fine recently played -->
+
+                    <!-- Creati per te -->
+                    <div class="container">
+                        <h2>Creato per John Doe</h2>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <div class="card">
+                                    <img src="" alt="">
+                                    <h4>Titolo</h4>
+                                    <h5>Sottotitolo</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fine Creati per te -->
+
+                    <!--  Artisti più popolari -->
+                    <div class="container artist">
+                        <h2>Artisti più popolari</h2>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <div class="card">
+                                    <img src="" alt="">
+                                    <h4>Titolo</h4>
+                                    <h5>Sottotitolo</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fine Artisti più popolari -->
+
+                </section>
+
+            </section>
+            <!-- fine contenitore  -->
+
         </section>
-        <footer class="player"></footer>
+        <footer class="player">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="track-preview">
+                            <div class="track-thumbnail">
+                                <img src="" alt="">
+                            </div>
+                            <div class="track-info">
+                                <!-- <h5>Sinister</h5>
+                                <h6>Brano nome</h6> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="track-player">
+                            <div class="player-btns">
+        
+                            </div>
+                            <div class="player-bar">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="systems-btns">
+                        </div>
+                    </div>
+                </div>
+        </footer>
     </main>
    
 </body>
