@@ -58,7 +58,13 @@
             <!-- contenitore  -->
             <section class="contenitore">
                 <section class="upgrade-banner">
-                    <a href="btn" class="class">Effettua l'upgrade</a>
+                    <div class="container d-flex align-center h-100">
+                        <div class="row">
+                            <div class="col-sm-3 col-sm-offset-9">
+                                <a href="#" class="btn">Effettua l'upgrade</a>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section class="card-container">
 
@@ -68,7 +74,7 @@
                             <div class="row">
                                 <div class="col-lg-12 text-center">
                                     <ul>
-                                        <li><a href="#" class="filter-menu-item">in evidenza</a></li>
+                                        <li><a href="#" class="filter-menu-item underline">in evidenza</a></li>
                                         <li><a href="#" class="filter-menu-item">Podcast</a></li>
                                         <li><a href="#" class="filter-menu-item">Classifiche</a></li>
                                         <li><a href="#" class="filter-menu-item">Generi e mood</a></li>
@@ -83,12 +89,69 @@
                     <!-- recently played -->
                     <div class="container">
                         <h2>Recently-played</h2>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <img src="" alt="">
-                                <h4>Stranger things, Vol. 1 (a Netflix Original series Soundtrack)</h4>
-                                <h5>Subtitle</h5>
+                        <div class="row text-center">
+
+                            <!-- Card -->
+                            <div class="col-lg-2 col-md-3 col-xs-6">
+                                <div class="song-card">
+                                    <img src="img/metal_lifting.jpg" alt="">
+                                    <h4>Heavy metal</h4>
+                                    <h5>Subtitle</h5>
+                                </div>
                             </div>
+                            <!-- fine Card -->
+
+                            <!-- Card -->
+                            <div class="col-lg-2 col-md-3 col-xs-6">
+                                <div class="song-card">
+                                    <img src="img/stranger.jpeg" alt="">
+                                    <h4>Stranger things, Vol. 1 (a Netflix Original series Soundtrack)</h4>
+                                    <h5>Subtitle</h5>
+                                </div>
+                            </div>
+                            <!-- fine Card -->
+
+                            <!-- Card -->
+                            <div class="col-lg-2 col-md-3 col-xs-6">
+                                <div class="song-card">
+                                    <img src="img/aquietplace.jpeg" alt="">
+                                    <h4>A quiet place</h4>
+                                    <h5>Subtitle</h5>
+                                </div>
+                            </div>
+                            <!-- fine Card -->
+
+                            <!-- Card -->
+                            <div class="col-lg-2 col-md-3 col-xs-6">
+                                <div class="song-card">
+                                    <img src="img/split.jpeg" alt="">
+                                    <h4>Split</h4>
+                                    <h5>Subtitle</h5>
+                                </div>
+                            </div>
+                            <!-- fine Card -->
+
+
+                            <!-- Card -->
+                            <div class="col-lg-2 col-md-3 col-xs-6">
+                                <div class="song-card">
+                                    <img src="img/cure.jpeg" alt="">
+                                    <h4>A cure for wellness</h4>
+                                    <h5>Subtitle</h5>
+                                </div>
+                            </div>
+                            <!-- fine Card -->
+
+                            <!-- Card -->
+                            <div class="col-lg-2 col-md-3 col-xs-6">
+                                <div class="song-card">
+                                    <img src="img/sinister.jpeg" alt="">
+                                    <h4>Sinister</h4>
+                                    <h5>Subtitle</h5>
+                                </div>
+                            </div>
+                            <!-- fine Card -->
+
                         </div>
                     </div>
                     <!-- Fine recently played -->
@@ -96,14 +159,26 @@
                     <!-- Creati per te -->
                     <div class="container">
                         <h2>Creato per John Doe</h2>
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <div class="card">
-                                    <img src="" alt="">
-                                    <h4>Titolo</h4>
-                                    <h5>Sottotitolo</h5>
+                        <h5>Più ascolti, più accurati saranno i suggerimenti</h5>
+                        <div class="row text-center">
+
+                                <!-- Card -->
+                                <div class="col-lg-2">
+                                    <div class="song-card">
+                                        <img src="img/sinister.jpeg" alt="">
+                                        <h4>Release radar</h4>
+                                    </div>
                                 </div>
-                            </div>
+                                <!-- fine Card -->
+
+                                <!-- Card -->
+                                <div class="col-lg-2">
+                                    <div class="song-card">
+                                        <img src="img/sinister.jpeg" alt="">
+                                        <h4>Daily mix 1</h4>
+                                    </div>
+                                </div>
+                                <!-- fine Card -->
                         </div>
                     </div>
                     <!-- Fine Creati per te -->
@@ -131,29 +206,43 @@
         </section>
         <footer class="player">
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="track-preview">
-                            <div class="track-thumbnail">
-                                <img src="" alt="">
+                    <div class="col-lg-2">
+                        <div class="track-preview d-flex align-center space-between">
+                            <div class="track d-flex">
+                                <div class="track-thumbnail">
+                                    <img src="img/sinister.jpeg" alt="">
+                                </div>
+                                <div class="track-info">
+                                    <h5>Sinister</h5>
+                                    <h6>Brano nome</h6>
+                                </div>
                             </div>
-                            <div class="track-info">
-                                <!-- <h5>Sinister</h5>
-                                <h6>Brano nome</h6> -->
+                            <div class="track-icons">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-folder"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-8">
                         <div class="track-player">
-                            <div class="player-btns">
-        
+                            <div class="player-btns d-flex justify-center align-center">
+                                <i class="fa-solid fa-shuffle"></i>
+                                <i class="fa-solid fa-backward-step"></i>
+                                <i class="fa-regular fa-circle-play"></i>
+                                <i class="fa-solid fa-forward-step"></i>
+                                <i class="fa-solid fa-arrow-rotate-left"></i>
                             </div>
-                            <div class="player-bar">
+                            <div class="player-bar text-center">
                                 
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="systems-btns">
+                    <div class="col-lg-2">
+                        <div class="systems-btns d-flex align-center">
+                            <i class="fa-solid fa-list"></i>
+                            <i class="fa-solid fa-display"></i>
+                            <i class="fa-solid fa-volume-high"></i>
+                            <span class="volume-bar"></span>
                         </div>
                     </div>
                 </div>
